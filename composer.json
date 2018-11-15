@@ -1,0 +1,35 @@
+{	
+  "name": "JordanNZ/Hail",	
+  "description": "Wordpress plugin to pull content from Hail",	
+  "keywords": ["wordpress", "plugin", "spf", "content"],	
+  "homepage": "http://spf.nz",	
+  "license": "GPLv2 or later",	
+  "authors": [	
+    {	
+      "name": "Jordan Diamond",	
+      "email": "jordan@spfwebsites.co.nz",	
+      "homepage": "https://github.com/JordanNZ"	
+    }	
+  ],	
+	
+  "type": "wordpress-plugin",	
+  "version": "v1.0.5",	
+	
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:JordanNZ/Hail.git",
+      "no-api": true
+    }
+  ],
+
+  "require": {	
+    "php": ">=5.3.2",	
+    "composer/installers": "1.0.*",
+    "JordanNZ/Hail": "master"
+     
+  }
+
+
+  
+}

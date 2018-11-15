@@ -1,0 +1,111 @@
+body.login {
+ 	background-image: url('background.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+}
+
+.login h1 a {
+	  background-image: url('spf-logo.png');
+	  background-size: 300px;
+	  width: 300px;
+	  -webkit-filter: white(100%); /* Safari 6.0 - 9.0 */
+    	  filter: white(100%);
+}
+
+.login form {
+	  padding: 25px;
+	  background: #fff;
+	  color: #666;
+	  box-shadow: 0 1px 4px rgba(0,0,0,0.09);
+}
+
+.login input[type="text"]{
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    background: transparent;
+    box-shadow: none;
+}
+
+.login input[type="password"]{
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    background: transparent;
+    box-shadow: none;
+}
+
+.login .button-primary {
+  width: 100%;
+  float:right;
+  background-color:#3a94e0 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3a94e0), to(#3a94e0));
+  background: -webkit-linear-gradient(top, #3a94e0, #3a94e0);
+  background: -moz-linear-gradient(top, #3a94e0, #3a94e0);
+  background: -ms-linear-gradient(top, #3a94e0, #3a94e0);
+  background: -o-linear-gradient(top, #3a94e0, #3a94e0);
+  background-image: -ms-linear-gradient(top, #3a94e0 0%, #3a94e0 100%);
+  color: #ffffff;
+  -webkit-border-radius: 0px;
+  border: 1px solid #0d9ed9;
+}
+
+.login .button-primary:hover {
+  background-color:#3a94e0 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3a94e0), to(#0d9ed9 ));
+  background: -webkit-linear-gradient(top, #3a94e0, #0d9ed9 );
+  background: -moz-linear-gradient(top, #3a94e0, #0d9ed9 );
+  background: -ms-linear-gradient(top, #3a94e0, #0d9ed9 );
+  background: -o-linear-gradient(top, #3a94e0, #0d9ed9 );
+  background-image: -ms-linear-gradient(top, #0b436e 0%, #0d9ed9 100%);
+  color: #fff;
+  -webkit-border-radius: 0px;
+  border: 1px solid #0d9ed9;
+}
+
+.login .button-primary:active {
+  background-color:#3a94e0 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0d9ed9), to(#3a94e0));
+  background: -webkit-linear-gradient(top, #0d9ed9, #3a94e0);
+  background: -moz-linear-gradient(top, #0d9ed9, #3a94e0);
+  background: -ms-linear-gradient(top, #0d9ed9, #3a94e0);
+  background: -o-linear-gradient(top, #0d9ed9, #3a94e0);
+  background-image: -ms-linear-gradient(top, #0d9ed9 0%, #3a94e0 100%);
+  color: #fff;
+  -webkit-border-radius: 0px;
+  border: 1px solid #0d9ed9;
+}
+
+p#nav {
+  display: none;
+}
+
+p#backtoblog {
+  display: none;
+}
+
+p.forgetmenot {
+  display: none;
+}
+
+
+#spf-footer {
+	position: absolute; 
+	margin: 20px; 
+	bottom: 0; 
+	right: 0; 
+	color: white;
+}
+
+#spf-footer a {
+	color: white;
+	text-decoration: none;
+}
+
+#spf-footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
